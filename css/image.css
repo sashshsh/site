@@ -1,0 +1,43 @@
+p{
+	font-size: 0.8in;
+	background-image: url(https://image.shutterstock.com/image-photo/abstract-white-grey-background-subtle-260nw-1956742048.jpg);
+background-size: cover;
+color: silver;
+}
+body{
+	background-color: lightblue;
+	background-image: url(https://cdn.pixabay.com/animation/2022/12/20/03/45/03-45-09-865_512.gif);
+	background-repeat: no-repeat;
+	background-size: 333px;
+	background-position: 100% 100%;
+	background-attachment: fixed;
+}
+div{
+	margin: 50px;
+}
+.fd{
+	width: 700px;
+	height: 400px;
+	background-image: url(https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg);
+	background-size: cover;
+	border: ridge 20px burlywood;
+}
+.sd{
+	width: 350px;
+	height: 200px;
+	background: linear-gradient(rgba(255, 255, 0, 0.5),rgba(0, 0, 255, 0.5)), url(https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg);
+	background-size: cover;
+}
+.fm{
+	width: 500px;
+	height: 500px;
+	box-shadow: 10px -10px 50px purple;
+
+}
+.sm{
+	display: block;
+	margin: auto;
+	border-radius: 50%;
+	box-shadow: 10px -10px 50px darkblue;
+	width: 50%;
+}

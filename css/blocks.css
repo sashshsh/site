@@ -1,0 +1,181 @@
+body{
+	background: linear-gradient(to left, yellow,blue);
+}
+p.ex0{
+	font-size: 50px;
+	background-color: black;
+	color: red;
+	text-align: center;
+}
+.btn1{
+	font-size: 24px;
+	font-family: monospace;
+	background-color: black;
+	color: red;
+	border: double 10px red ;
+}
+.btn1:hover{
+	background-color: red;
+	color: black;
+	border: double 10px black;
+	box-shadow: 5px -5px darkred;
+}
+/* CSS */
+.button-85 {margin: 20px;
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 0);
+  background: rgb(0, 0, 255);
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-85:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.button-85:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #00f;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+/*Запозичена кнопка-посилання*/
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #f29c93;
+	background:linear-gradient(to bottom, #fe1a00 5%, #ce0100 100%);
+	background-color:#fe1a00;
+	border-radius:18px;
+	border:3px solid #d83526;
+	display:inline-block;
+	cursor:pointer;
+	color:#000;
+	font-family:Georgia;
+	font-size:24px;
+	font-weight:bold;
+	padding:16px 48px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #ce0100 5%, #fe1a00 100%);
+	background-color:#ce0100;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.ex1{
+	font-size: 24px;
+	color: orange;
+	border: dotted 10px orange;
+	display: inline-block;
+	margin-left: 40px;
+}
+span{
+	border: dashed 5px pink;
+	display: block;
+}
+li{
+	list-style-type: none;
+	border: ridge 5px lime;
+	display: inline-block;
+	color: lime;
+	font-size: 24px;
+	background: yellow;
+}
+a{
+	text-decoration: none;
+}
+a:active{
+	color: white;
+}
+a:hover{
+	color: pink;
+}
+#b1{
+	width: 500px;
+	height: 500px;
+	background-color: yellow;
+	border: groove 20px blue;
+	font-size: 24px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#b2{
+	margin: 50px;
+	width: 700px;
+	height: 700px;
+	background-color: pink;
+	border: outset 20px;
+	padding: 50px;
+}
+
+#b3,#b4{
+	width: 900px;
+	height: 200px;
+	background-color: gold;
+	margin: 75px;
+}
+#b3{
+	border-color: red orange green purple;
+	border-width: 20px;
+	border-style: solid;
+}
+#b4{
+	border-color: red purple green orange  ;
+	border-width: 20px;
+	border-style: dotted dashed;
+}

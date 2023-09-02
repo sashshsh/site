@@ -1,0 +1,31 @@
+body{
+	
+	background-color: lightsalmon;
+}
+p{
+	font-size: 50px;
+	color: blue;
+	text-align: center;
+}
+marquee{
+	font-size: 48px;
+}
+div{
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	position: relative;
+	animation-name: ex1;
+	animation-duration: 5s;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+}
+@keyframes ex1{
+	0% {background-color: green; left: 0px; top: 0px}
+	25% {background-color: red; left: 200px; top: 0px}
+	50% {background-color: grey; left: 200px; top: 200px}
+	75% {background-color: darkgoldenrod; left: 0px; top: 200px}
+	100% {background-color: blue; left: 0px; top: 0px}
+
+
+}

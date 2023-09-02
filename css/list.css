@@ -1,0 +1,25 @@
+body{
+	background-color: blueviolet;
+}
+p{
+	font-size: 50px;
+	text-align: center;
+	color: hotpink;
+}
+ul,ol,dl{
+	color: hotpink;
+	font-size: 24px;
+	margin-left: 100px;
+}
+.fl li::marker{
+	color: red;
+	font-size: 1.2em;
+}
+@counter-style circled-digits {
+  system: cyclic;
+  symbols: 😀 👻 👽 👾 🤖 🎃 😹 👋 👀 💋 🐲;
+  suffix: " ";
+}
+ul.cd {
+  list-style: circled-digits;
+}

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+body{
+	background-image: url(https://st.depositphotos.com/1268628/4512/i/600/depositphotos_45124431-stock-photo-grey-abstract-background.jpg);
+background-size: cover;
+}
+p{
+	font-size: 50px;
+	color: red;
+	text-align: center;
+	font-family: 'Rubik Wet Paint', cursive;
+	text-shadow: 0px -10px 20px green;
+}
+ul,ol,dl{
+	font-size: 24px;
+	color: #404040;
+	list-style-position: outside;
+	margin-left: 100px;
+}
+.cirle li::marker{
+	color: violet;
+	font-size: 1.5em;
+	}
+
+	@counter-style circled-digits {
+  system: cyclic;
+  symbols: 😀 👻 ;
+  suffix: " ";
+}
+
+ul.cd {
+  list-style: circled-digits;
+}

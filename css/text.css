@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap');
+h1{
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-family: 'Ruslan Display', cursive;
+}
+h2{
+	text-align: right;
+}
+h3{
+	text-transform: capitalize;
+}
+p{
+	text-align: justify;
+	text-indent: 24px;
+	line-height: 24px;
+	word-spacing: 5px;
+}
+.oldmap{
+	float: right;
+	margin-left: 20px;
+}
+.map{
+	float: right;
+	border: solid 2px grey;
+}
+.map figcaption{
+	background-color: lightgrey;
+	color: white;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration-line: underline;
+}
+a:visited{
+	color: orange;
+}

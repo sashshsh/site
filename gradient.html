@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Gradient</title>
+	<style type="text/css">
+		body{
+			background-color: #f9999f;
+		}
+		p{
+			font-size: 1in;
+			color: #456123;
+			background: linear-gradient(grey,yellow,pink,blue);
+		}
+		div{
+			width: 300px;
+			height: 300px;
+			margin: 20px;
+			float: left;
+		}
+	</style>
+</head>
+<body>
+<p>Ми вивчаємо градієнти</p>
+<div style="background: linear-gradient(yellow,blue);"></div>
+<div style="background: linear-gradient(to left,yellow,blue);"></div>
+<div style="background: linear-gradient(45deg,yellow,blue);"></div>
+<div style="background: linear-gradient(225deg,yellow,blue);"></div>
+<div style="background: linear-gradient(45deg,yellow 50%,blue 75%);"></div>
+<div style="background: linear-gradient(45deg,yellow 0% 50%,blue 75% 100%);"></div>
+<div style="background: linear-gradient(45deg,yellow 50%,blue 50% );"></div>
+<div style="background: linear-gradient(0deg,yellow 50%,blue 50% ); width: 450px;"></div>
+<div style="background: radial-gradient(yellow,blue);"></div>
+<div style="background: radial-gradient(yellow 25%,blue);"></div>
+<div style="background: radial-gradient(yellow 25%,blue 75%); border-radius: 25%;"></div>
+<div style="background: radial-gradient(circle at 75px 75px, yellow 25%,blue 75%); border-radius: 50%;"></div>
+<div style="background: radial-gradient(circle at 175px 175px, yellow 25%,blue 75%); border-radius: 50%;"></div>
+<div style="background: radial-gradient(circle at 0px 150px, yellow 25%,blue 75%); "></div>
+<div style="background: conic-gradient(yellow,blue,orange);"></div>
+<div style="background: conic-gradient(at 10% 10%, yellow,blue,orange);"></div>
+<div style="background: conic-gradient(at 25% 25%, yellow,blue,orange);"></div>
+<div style="background: repeating-linear-gradient(yellow 20px,blue 40px);"></div>
+<div style="background: repeating-radial-gradient(yellow 10%,blue 20%);"></div>
+<div style="background: repeating-radial-gradient(yellow 5% 10%,blue 10% 15%); border-radius: 50%;"></div>
+<div style="background: repeating-conic-gradient(yellow 5% 10%,blue 10% 15%,orange 15% 20%);"></div>
+<div style="background: linear-gradient(
+      217deg,
+      rgba(255, 0, 0, 0.8),
+      rgba(255, 0, 0, 0) 70.71%
+    ), linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);"></div>
+
+
+
+</body>
+</html>

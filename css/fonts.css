@@ -1,0 +1,34 @@
+body{
+	background-color: grey;
+	}
+p{
+	font-size: 48pt;
+}
+.p1{
+	color: white;
+	text-align: center;
+	background: linear-gradient(to left, red, violet,blue);
+}
+.p2{
+	font-family: "Lucida Console", Courier, monospace;
+}
+.p3{
+	font-family: cursive;
+	text-shadow: 2px -2px violet, 4px -4px red;
+}
+.p4{
+	font-family: fantasy;
+	text-shadow: 2px -2px 5px red;
+}
+.p5{
+font-family: 'Kablammo', cursive;
+text-shadow: 0 0 5px violet, 0 0 10px red;
+}
+.p6{
+font-family: 'Rubik Beastly', cursive;
+text-shadow: 2px -2px green;
+}
+.p7{
+	font-family: 'Rubik Pixels', cursive;
+	text-shadow: 2px 2px orange;
+}
